@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- HEADER START -->
+    <header class="header">
+        <div class="container header__container">
+            <h2 class="header__title">
+                Where in the world?
+            </h2>
+
+            <button class="header__mode" id="dark-btn">
+                <i class="fa-regular fa-moon"></i>
+                Dark Mode
+            </button>
+            <button id="light-btn" class="hidden">
+                <i class="fa-solid fa-moon"></i>
+                Light Mode
+            </button>
+        </div>
+    </header>
+    <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <button class="hero__back">
+                    <a href="./index.html" class="hero__back__link">
+                        <i class="fa-solid fa-arrow-left-long"></i>
+                        <span>Back</span>
+                    </a>
+                </button>
+                <div id="hero__about">
+                    
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- MAIN END -->
+
+    <div class="overlay hidden" id="overlay">
+        <div class="lds-ring">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+
+    <!-- JS -->
+    <script src="./js/mode.js"></script>
+    <script src="./js/request.js"></script>
+    <script src="./js/about.js"></script>
+</body>
+</html>
